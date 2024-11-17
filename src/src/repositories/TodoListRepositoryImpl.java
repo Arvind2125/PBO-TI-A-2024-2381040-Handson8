@@ -76,6 +76,11 @@ public class TodoListRepositoryImpl implements TodoListRepository {
         return null;
     }
 
+    @Override
+    public Boolean edit(TodoList todoList) {
+        return null;
+    }
+
     private static boolean isSelectedTodoNotValid(final Integer number) {
         // cek if the number is zero or less than zero
         if (number <= 0) {
